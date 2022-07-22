@@ -1,0 +1,57 @@
+[
+    {
+      "userId": 1,
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "stepsWalked": 2547,
+      "stepsTarget": 4000,
+      "performedDate": "2022-07-15T13:00:00.000Z",
+      "scheduledDate": "2022-07-23T13:00:00.000Z",
+      "calorieIntake": 2547,
+      "calorieTarget": 2500,
+      "proteinConsumed": 45,
+      "proteinTarget": 70,
+      "carbConsumed": 50,
+      "carbTarget": 70,
+      "fatConsumed": 30,
+      "fatTarget": 70,
+      "feedback": true
+    },
+    {
+      "userId": 2,
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "stepsWalked": 2547,
+      "stepsTarget": 5000,
+      "performedDate": "2022-07-15T13:00:00.000Z",
+      "scheduledDate": "2022-07-24T00:00:00.000Z",
+      "calorieIntake": 2547,
+      "calorieTarget": 2500,
+      "proteinConsumed": 55,
+      "proteinTarget": 70,
+      "carbConsumed": 20,
+      "carbTarget": 70,
+      "fatConsumed": 10,
+      "fatTarget": 70,
+      "feedback": true
+    },
+    {
+      "userId": 3,
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "stepsWalked": 2547,
+      "stepsTarget": 4000,
+      "performedDate": "2022-07-15T13:00:00.000Z",
+      "scheduledDate": "2022-07-24T13:00:00.000Z",
+      "calorieIntake": 2547,
+      "calorieTarget": 2500,
+      "proteinConsumed": 15,
+      "proteinTarget": 70,
+      "carbConsumed": 60,
+      "carbTarget": 70,
+      "fatConsumed": 35,
+      "fatTarget": 70,
+      "feedback": false
+    }
+  ]
+  
