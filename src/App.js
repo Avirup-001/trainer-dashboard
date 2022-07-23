@@ -1,20 +1,13 @@
-import './App.css';
+import "./App.css";
 import User from "./components/User";
 import HIcon from "./icons/Person.svg";
 import NIcon from "./icons/Nutrition.svg";
 import GIcon from "./icons/Gym.svg";
 import { Routes, Route } from "react-router-dom";
 
-
-
 const data = require("./data.json");
 
-
-
 function App() {
-
-  
-
   const users = data.map((usr) => {
     return (
       <User
@@ -40,8 +33,10 @@ function App() {
   });
 
   return (
-    <Routes> 
-      <Route path='/' element={
+    <Routes>
+      <Route
+        path="/"
+        element={
           <div className="App">
             <div className="container">
               <div
@@ -49,7 +44,7 @@ function App() {
                 style={{
                   color: "white",
                   display: "flex",
-                  flexDirection: "row"
+                  flexDirection: "row",
                 }}
               >
                 <ul
@@ -62,7 +57,7 @@ function App() {
                     fontWeight: 700,
                     fontSize: "18px",
                     gap: "15px",
-                    marginLeft: "250px"
+                    marginLeft: "250px",
                   }}
                 >
                   <img src={HIcon} alt="" />
@@ -77,10 +72,10 @@ function App() {
             </div>
           </div>
         }
-        />
+      />
 
-        <Route path="/:userId/nutrition" element={<div>Nutrition</div>} />
-        <Route path="/:userId/workout" element={<div>Workout</div>} />  
+      <Route path="/:userId/nutrition" element={<div>Nutrition Details</div>} />
+      <Route path="/:userId/workout" element={<div>Workout Details</div>} />
     </Routes>
   );
 }
